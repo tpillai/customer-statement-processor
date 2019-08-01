@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title> Customer Statement Processor</title>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+
+        <div class="validate-container">
+            <div class="validate-header">
+                <h1> Customer Statement Processor</h1>
+            </div>
+            <div class="validate-content">
+                <div class="validate-div">
+                    <h2>Upload Customer Statement Records </h2>
+                    <form id="validate-form" name="validateForm">
+                        <input id="validate-input" type="file" name="file" class="file-input" required />
+                        <button type="submit" class="primary submit-btn">Validate</button>
+                    </form>
+                    <div class="validate-response">
+                        <div id="validation-result-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/main.js" ></script>
+    </body>
+</html>

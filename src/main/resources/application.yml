@@ -1,0 +1,24 @@
+# Server properties
+server:
+    port: 8080
+
+
+# Logging properties
+logging:
+    level:
+        nl.rabobank.statementprocessor: debug
+    
+# Multipart properties
+spring:
+    servlet:
+        multipart:
+            enabled: true
+            file-size-threshold: 4KB
+            max-file-size: 256MB
+            max-request-size: 256MB
+
+# Application properties
+cs-processor:
+    validation:
+        parser-errors-key: PARSER_ERROR
+        

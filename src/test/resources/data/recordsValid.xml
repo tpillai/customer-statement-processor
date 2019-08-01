@@ -1,0 +1,16 @@
+<records>
+  <record reference="130498">
+    <accountNumber>NL69ABNA0433647324</accountNumber>
+    <description>Tickets for Peter Theuß</description>
+    <startBalance>26.9</startBalance>
+    <mutation>-18.78</mutation>
+    <endBalance>8.12</endBalance>
+  </record>
+  <record reference="130499">
+    <accountNumber>NL69ABNA0433647324</accountNumber>
+    <description>Purcahe from e-store</description>
+    <startBalance>76.5</startBalance>
+    <mutation>+10.78</mutation>
+    <endBalance>87.28</endBalance>
+  </record>
+</records>
